@@ -29,6 +29,7 @@ if (!defined('_PS_VERSION_'))
 	exit;
 
 spl_autoload_register('avalaraAutoload');
+ini_set('display_errors', 'On');
 
 class AvalaraTax extends Module
 {
@@ -39,7 +40,7 @@ class AvalaraTax extends Module
 	{
 		$this->name = 'avalaratax';
 		$this->tab = 'billing_invoicing';
-		$this->version = '3.5.2';
+		$this->version = '3.5.3';
 		$this->author = 'PrestaShop';
 		parent::__construct();
 
@@ -1489,6 +1490,8 @@ function avalaraAutoload($className)
 		require_once($moduleDir.'sdk/classes/'.$className.'.class.php');
 	elseif (file_exists($moduleDir.'sdk/classes/BatchSvc/'.$className.'.class.php'))
 		require_once($moduleDir.'sdk/classes/BatchSvc/'.$className.'.class.php');
+	elseif (file_exists($moduleDir.'sdk/classes/AvaCert2Svc/'.$className.'.class.php'))
+		require_once($moduleDir.'sdk/classes/AvaCert2Svc/'.$className.'.class.php');		
 	elseif (function_exists('__autoload'))
 		__autoload($className);
 }

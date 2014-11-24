@@ -25,7 +25,7 @@ class BatchSvc extends SoapClient {
                                     'Message' => 'AvalaraMessage',
                                     'Batch' => 'Batch',
                                     'BatchFile' => 'BatchFile',
-                                    'Profile' => 'Profile',
+                                    'Profile' => 'AvalaraProfile',
                                     'BatchSave' => 'BatchSave',
                                     'BatchSaveResponse' => 'BatchSaveResponse',
                                     'BatchSaveResult' => 'BatchSaveResult',
