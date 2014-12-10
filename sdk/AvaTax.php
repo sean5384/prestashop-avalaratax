@@ -9,7 +9,7 @@
  * Defines class loading search path.
  */
 
-function __autoload($class_name) 
+/*function __autoload($class_name) 
 {
 	$path=dirname(__FILE__).'/classes/'.$class_name . '.class.php';
 	
@@ -20,7 +20,7 @@ function __autoload($class_name)
 		$path=dirname(__FILE__).'/classes/AvaCert2Svc/'.$class_name . '.class.php';		
 
 	require_once $path;
-}
+}*/
 
 function EnsureIsArray( $obj ) 
 {

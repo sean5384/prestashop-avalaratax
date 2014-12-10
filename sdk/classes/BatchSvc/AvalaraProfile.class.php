@@ -10,7 +10,7 @@
  * @copyright © 2004 - 2011 Avalara, Inc.  All rights reserved.
  * @package   Batch
  */
-class Profile {
+class AvalaraProfile {
   private $Name; // string
   private $Client; // string
   private $Adapter; // string
