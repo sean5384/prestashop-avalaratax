@@ -22,7 +22,7 @@ class AvaCert2Soap extends AvalaraSoapClient {
                                     'CertificateUsage' => 'CertificateUsage',
                                     'CertificateJurisdiction' => 'CertificateJurisdiction',
                                     'CustomerSaveResult' => 'CustomerSaveResult',
-                                    'Profile' => 'Profile',
+                                    'Profile' => 'AvalaraProfile',
                                     'CertificateRequestInitiate' => 'CertificateRequestInitiate',
                                     'CertificateRequestInitiateRequest' => 'CertificateRequestInitiateRequest',
                                     'CertificateRequestInitiateResult' => 'CertificateRequestInitiateResult',
